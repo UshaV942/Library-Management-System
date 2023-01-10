@@ -1,0 +1,33 @@
+.book{
+    display: flex;
+    /* width: 200px; */
+    /* background-color: white; */
+      background:  linear-gradient(hwb(0 74% 24% / 0.37),rgba(177, 165, 165, 0.326));
+    margin: 25px 120px;
+    border: 0.1px solid rgb(247, 241, 241);
+    border-radius: 3px;
+}
+.book img
+{
+   padding: 25px;
+   background-color:rgba(255, 255, 255, 0.547);
+}
+.book_part
+{
+    padding-left: 10px;
+}
+.hedding
+{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+.book_part button
+{
+ width: 80px;
+ height: 30px;
+ border-radius: 4px;
+ border: 1px solid rgba(38, 36, 36, 0.181);
+ background-color:rgba(181, 70, 70, 0.593);
+ margin: 8px;
+}

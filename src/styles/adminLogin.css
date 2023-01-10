@@ -1,0 +1,39 @@
+.formcontainer
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.259),rgba(0, 0, 0, 0.412)),url("https://media.istockphoto.com/id/499198434/photo/books-on-the-table-with-library-background.jpg?s=170667a&w=0&k=20&c=9eGjTCTuVLdmQr7lOp9JFLeWTggrf2_ZNSN7tZK7B0k=");
+    background-size: cover;
+     height: 100vh;
+     background-position: center;
+     text-align: center;
+    
+}
+
+/* .formcontainer */
+.forminput
+{
+    padding-top: 100px;
+}
+.formlabinp
+{
+    align-items: center;
+    background-color: white;
+    margin: 0px 400px;
+    padding: 45px 25px;
+    
+}
+.formlabinp input
+{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid rgba(107, 101, 101, 0.87);
+    text-align: center;
+}
+.btnn button
+{
+    margin: 20px 100px;
+  padding: 8px 70px;
+  background-color: grey;
+  border: 1px solid grey;
+  
+}

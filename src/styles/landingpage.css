@@ -1,0 +1,61 @@
+
+.landingpage
+{
+    
+   /* background-image: url(https://www.ama.org/wp-content/uploads/2021/02/books-lead-image.jpeg?resize=1360%2C550); */
+    background: linear-gradient(rgba(0, 0, 0, 0.259),rgba(0, 0, 0, 0.412)),url("https://media.istockphoto.com/id/499198434/photo/books-on-the-table-with-library-background.jpg?s=170667a&w=0&k=20&c=9eGjTCTuVLdmQr7lOp9JFLeWTggrf2_ZNSN7tZK7B0k=");
+   background-size: cover; 
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+    
+    
+}
+
+.body
+{
+    padding-top: 200px;
+    /* padding-left: 50px; */
+}
+.selectlogintype
+{
+    text-align: center;
+    background-color: rgba(237, 232, 232, 0.929);
+    margin: 0px 380px;
+    border-radius: 10px;
+    padding: 30px 10px;
+
+   
+}
+.btn
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+.btn1 button
+{
+    margin: 18px;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: none;
+    background-color:rgb(170, 170, 170);
+}
+.btn1 a
+{
+    text-decoration: none;
+   
+}
+.btn2 button
+{
+    margin: 18px;
+    padding: 8px 18px;
+    border-radius: 2px;
+    border: none;
+    background-color:rgb(170, 170, 170);
+}
+.btn2 a
+{
+    text-decoration: none;
+   
+}
