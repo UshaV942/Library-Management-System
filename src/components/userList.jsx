@@ -18,16 +18,17 @@ const UserList = () => {
           alert(`${name} has been deleted`)
     }
     return ( 
-        <div className="userlist">
-           <h1>User List</h1>
+        <div   className="userlist">
+           <div className="section1">
+           <h1 style={{textAlign:"center"}}>User List</h1>
            <div className="usersection">
             {
                 users.map((data)=>(
                     <div className="users">
-                        <h2>User name:{[data.name]}</h2>
-                        <h2>Age{data.age}</h2>
-                        <h2>Email{data.email}</h2>
-                        <h2>PhoneNumber{data.phoneNumber}</h2>
+                        <h2>User name: {[data.name]}</h2>
+                        <h2>Age: {data.age}</h2>
+                        <h2>Email: {data.email}</h2>
+                        <h2>PhoneNumber: {data.phoneNumber}</h2>
                         <button onClick={()=>handleDelete(data.id,data.name)}>Delete</button>
                         
                     </div>
@@ -35,6 +36,7 @@ const UserList = () => {
                 )
 
             }
+           </div>
            </div>
         </div>
      );

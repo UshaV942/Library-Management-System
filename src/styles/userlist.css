@@ -5,3 +5,13 @@
     justify-content: space-evenly;
     
 }
+.section1
+{
+    background-color: rgba(71, 70, 70, 0.189);
+    padding-bottom: 500px;
+}
+.users
+{
+    background-color: rgba(183, 183, 192, 0.736);
+    padding: 20px;
+}

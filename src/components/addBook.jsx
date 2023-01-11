@@ -27,6 +27,7 @@ const AddBook = () => {
 
     return (
         <div style={{textAlign:"center"}} className="addbook">
+            <div className="section">
             <h1>Add a book</h1>
             <div style={{textAlign:'center'}} className="form">
                 <form action=""  onSubmit={handleSubmit}>
@@ -43,17 +44,18 @@ const AddBook = () => {
                         <input type="number" placeholder="Number of the pages" value={pageCount} onChange={(x) => setPage(x.target.value)} />
                     </div>
                     <div className="shortDescription">
-                        <textarea name="" type="text" placeholder="Short Description of the page" id="" cols="30" rows="10" required value={shortDescription} onChange={(x) =>setshortDesc(x.target.value)} ></textarea>
+                        <textarea name="" type="text" placeholder="Short Description " id="" cols="46" rows="2" required value={shortDescription} onChange={(x) =>setshortDesc(x.target.value)} ></textarea>
                     </div>
                     <div className="longDescription">
-                        <textarea name="" type="text" placeholder="Long Description of the page" id="" cols="30" rows="10" required value={longDescription} onChange={(x) => setlongDesc(x.target.value)}></textarea>
+                        <textarea name="" type="text" placeholder="Long Description " id="" cols="46 " rows="2" required value={longDescription} onChange={(x) => setlongDesc(x.target.value)}></textarea>
                     </div>
                     <div className="thumbnailUrl">
-                        <input type="text" value={thumbnailUrl} onChange={(x)=>setthumbnailUrl(x.target.value)} />
+                        <input type="text" value={thumbnailUrl} onChange={(x)=>setthumbnailUrl(x.target.value)} placeholder="URL" />
                     </div>
                     <button  className="bt">Add Book</button>
 
                 </form>
+            </div>
             </div>
         </div>
     );

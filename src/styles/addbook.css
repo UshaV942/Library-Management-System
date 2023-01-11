@@ -1,8 +1,22 @@
 .addbook
 {
-    background-color: gray;
+    background-color: rgba(71, 70, 70, 0.189);
+    padding:20px;
 }
 .form
 {
-    text-align: center;
+    background-color: rgba(109, 109, 127, 0.54);
+    padding: 30px 2px;
+    margin: 0px 340px;
+    border-radius: 8px;
+}
+.form input
+{
+    width: 350px;
+    height: 25px;
+    margin: 10px 0px;
+}
+.form textarea
+{
+    margin: 10px 0px;
 }
