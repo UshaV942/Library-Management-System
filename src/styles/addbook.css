@@ -1,14 +1,15 @@
 .addbook
 {
     background-color: rgba(71, 70, 70, 0.189);
-    padding:20px;
+    padding:5px;
 }
 .form
 {
     background-color: rgba(109, 109, 127, 0.54);
-    padding: 30px 2px;
+    padding: 20px 2px;
     margin: 0px 340px;
     border-radius: 8px;
+    box-shadow: 10px 6px 12px 2px rgb(147, 142, 143);
 }
 .form input
 {

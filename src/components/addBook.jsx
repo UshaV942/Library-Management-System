@@ -28,7 +28,7 @@ const AddBook = () => {
     return (
         <div style={{textAlign:"center"}} className="addbook">
             <div className="section">
-            <h1>Add a book</h1>
+            <h1>Add Book</h1>
             <div style={{textAlign:'center'}} className="form">
                 <form action=""  onSubmit={handleSubmit}>
                     <div className="title">

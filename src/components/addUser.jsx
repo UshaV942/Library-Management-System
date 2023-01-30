@@ -20,6 +20,7 @@ const AddUser = () => {
             })
         alert("User Added Successfully")
         navigate('/admin/user-list')
+       
     }
 
     return (

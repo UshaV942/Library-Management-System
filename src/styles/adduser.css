@@ -3,10 +3,10 @@
     /* background: linear-gradient(rgba(12, 11, 11, 0.734),rgba(22, 19, 19, 0.652)),url(https://images.pexels.com/photos/2952871/pexels-photo-2952871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
     background-position: center;
     background-color: rgba(71, 70, 70, 0.189);
-    height: 100vh;
-    background-size: cover;
-    padding: 30px;
    
+    background-size: cover;
+    padding: 5px;
+    height: 100vh;
     text-align: center;
 }
 
@@ -16,6 +16,7 @@
     padding: 40px 2px;
     margin: 0px 340px;
     border-radius: 8px;
+    box-shadow: 10px 6px 10px 1px rgb(174, 174, 185);
     
 }
 .form1 input
@@ -28,4 +29,8 @@
     
   position: relative;
   margin-top: 1px;
+}
+.section h1
+{
+    text-shadow: -10px 8px 15px rgb(130, 122, 122);
 }

@@ -1,0 +1,38 @@
+.admindashboard
+{
+    background: linear-gradient(rgba(78, 76, 76, 0.312),rgba(40, 38, 38, 0.938)),url("https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3BlbiUyMGJvb2t8ZW58MHx8MHx8&w=1000&q=80");
+    height: 272vh;
+    background-position: center;
+    background-size: cover;
+     background-color: rgba(71, 70, 70, 0);
+     margin: 15px 0px 0px 0px;
+     
+}
+
+.blogs img
+{
+    position: relative;
+    left: 280px;
+    top: 70px;
+}
+.content
+{
+    background-color: white;
+    margin: 40px 350px;
+    position: relative;
+    bottom:180px;
+    padding: 40px;
+    /* box-shadow: 3px 8px -10px 10px black; */
+    box-shadow: -2px -2px 12px 8px rgb(107, 107, 123);
+}
+.blogs2
+{
+    position: relative;
+    bottom: 200px;
+    
+}
+.blogs3
+{
+    position: relative;
+    bottom: 400px;
+}

@@ -1,11 +1,12 @@
 import AdminNavbar from "./adminNavbar";
-import AdminDashboard from "../adminDashboard";
+import AdminDashboard from "./adminDashboard";
 import { Routes, Route } from "react-router-dom";
 import BookList from "./booklist";
 import UserList from "./userList";
 import ReadBook from "./readBook";
 import AddBook from "./addBook";
 import AddUser from "./addUser";
+import Error from "./errorpage";
 const AdminPortal = () => {
     return (
         <div className="adminportal">
@@ -21,6 +22,8 @@ const AdminPortal = () => {
                    {/* and connection between the booklist and readbook is navigate hook n uses id ex:navigate(`/admin/book-list/${id}`) */}
                    <Route path="/add-book" element={<AddBook />}/> 
                    <Route path="/add-user" element={<AddUser/>}/>
+                   <Route path="/*"  element={<Error/>}/>
+
             </Routes>
 
 

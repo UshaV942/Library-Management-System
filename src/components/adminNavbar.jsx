@@ -6,7 +6,7 @@ const AdminNavbar = () => {
  
       <div className="navbar">
       {/* <h1>AdminPortal</h1> */}
-      <img width="80px" height="80px" src="/images/logo.jpg" alt="" />
+      <img width="50px" height="50px" src="/images/logo.jpg" alt="" />
       <div className="pages">
         <ul>
             <Link to="/admin/">Dashboard</Link>
